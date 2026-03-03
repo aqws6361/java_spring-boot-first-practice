@@ -38,3 +38,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# 忽略真實的資料庫密碼設定檔
+src/main/resources/application.properties

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome back</title>
+</head>
+<body>
+    <h3>歡迎回來</h3>
+    <th:block th:if="${name}==null">
+        <div>我不知道你是誰</div>
+    </th:block>
+    <th:block th:unless="${name}==null">
+        <div th:text="${name}"></div>
+    </th:block>
+</body>
+</html>
